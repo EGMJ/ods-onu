@@ -3,12 +3,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.SettingsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="freagmento configurações" />
+        android:text="fragmento config" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#1A1E29"-->
+    <!--        android:orientation="vertical"-->
+    <!--        tools:layout_editor_absoluteX="1dp"-->
+    <!--        tools:layout_editor_absoluteY="1dp">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="113dp"-->
+    <!--            android:orientation="horizontal">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/imageView2"-->
+    <!--                android:layout_width="135dp"-->
+    <!--                android:layout_height="113dp"-->
+    <!--                android:background="#1A1E29"-->
+    <!--                app:srcCompat="@drawable/logoods" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView300"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="94dp"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:gravity="center_vertical"-->
+    <!--                android:text="  ZenLife"-->
+    <!--                android:textColor="#CDF1E7"-->
+    <!--                android:textSize="48sp" />-->
+    <!--        </LinearLayout>-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button4"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:backgroundTint="#570000"-->
+    <!--            android:text="Meu perfil"-->
+    <!--            android:textColor="#FFFFFF" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button5"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:backgroundTint="#570000"-->
+    <!--            android:text="Biblioteca de exercícios"-->
+    <!--            android:textColor="#FFFFFF" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button6"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:backgroundTint="#570000"-->
+    <!--            android:text="Configurações"-->
+    <!--            android:textColor="#FFFFFF" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/button7"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:backgroundTint="#570000"-->
+    <!--            android:text="Sair do app"-->
+    <!--            android:textColor="#FFFFFF" />-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="freagmento configurações"-->
+    <!--            android:textColor="#FFFFFF" />-->
+    <!--    </LinearLayout>-->
 
 </FrameLayout>

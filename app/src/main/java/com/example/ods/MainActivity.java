@@ -1,5 +1,6 @@
 package com.example.ods;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -36,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        // cor barra de status
+        getWindow().setStatusBarColor(Color.parseColor("#1A1E29"));
+        getWindow().setNavigationBarColor(Color.parseColor("#FFFFFF"));
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
 
