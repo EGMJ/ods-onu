@@ -18,7 +18,7 @@ public class SettingsFragment extends Fragment {
 
     private Button btnSair;
     private Button btnConfig;
-    private Button btnExerci;
+//    private Button btnExerci;
     private Button btnPerfil;
 
     public SettingsFragment() {
@@ -34,7 +34,7 @@ public class SettingsFragment extends Fragment {
         // Referência para o botão "Sair"
         btnSair = view.findViewById(R.id.btnSair);
         btnConfig = view.findViewById(R.id.btnConfig);
-        btnExerci = view.findViewById(R.id.btnExerci);
+//        btnExerci = view.findViewById(R.id.btnExerci);
         btnPerfil = view.findViewById(R.id.btnPerfil);
 
         // Configuração do clique do botão "Sair"
@@ -73,16 +73,16 @@ public class SettingsFragment extends Fragment {
         });
 
         // Configuracao do clique do botao exercicios
-        btnExerci.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Encerra a atividade que contém o fragmento
-                if (getActivity() != null) {
-                    Intent settings = new Intent(getActivity(), SettingsExercise.class);
-                    startActivity(settings);
-                }
-            }
-        });
+//        btnExerci.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                // Encerra a atividade que contém o fragmento
+//                if (getActivity() != null) {
+//                    Intent settings = new Intent(getActivity(), SettingsExercise.class);
+//                    startActivity(settings);
+//                }
+//            }
+//        });
 
         return view; // Retorna a view inflada
     }

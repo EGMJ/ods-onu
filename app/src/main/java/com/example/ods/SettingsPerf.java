@@ -36,10 +36,10 @@ public class SettingsPerf extends AppCompatActivity {
         TextView edtEmail = findViewById(R.id.edtEmail);
         Button btnVoltar = findViewById(R.id.btnVoltar);
 
-        edtNome1.setText("Teste");
-        edtDataNascimento.setText("Teste");
-        edtCpf.setText("Teste");
-        edtEmail.setText("Teste");
+        edtNome1.setText("Caio Castro");
+        edtDataNascimento.setText("01/05/1989");
+        edtCpf.setText("123.543.234-32");
+        edtEmail.setText("caio@gmail.com");
 
         btnVoltar.setOnClickListener(v -> {
             // Lógica para voltar à tela de login
